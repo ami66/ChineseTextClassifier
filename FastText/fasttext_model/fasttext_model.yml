@@ -1,0 +1,20 @@
+"backend: tensorflow\nclass_name: Sequential\nconfig:\n  layers:\n  - class_name:\
+  \ Embedding\n    config:\n      activity_regularizer: null\n      batch_input_shape:\
+  \ !!python/tuple [null, 200]\n      dtype: float32\n      embeddings_constraint:\
+  \ null\n      embeddings_initializer:\n        class_name: RandomUniform\n     \
+  \   config: {maxval: 0.05, minval: -0.05, seed: null}\n      embeddings_regularizer:\
+  \ null\n      input_dim: !!python/object/apply:numpy.core.multiarray.scalar\n  \
+  \    - !!python/object/apply:numpy.dtype\n        args: [i8, 0, 1]\n        state:\
+  \ !!python/tuple [3, <, null, null, null, -1, -1, 0]\n      - !!binary |\n     \
+  \   ROQBAAAAAAA=\n      input_length: 200\n      mask_zero: false\n      name: embedding_14\n\
+  \      output_dim: 200\n      trainable: true\n  - class_name: GlobalAveragePooling1D\n\
+  \    config: {data_format: channels_last, dtype: float32, name: global_average_pooling1d_12,\n\
+  \      trainable: true}\n  - class_name: Dropout\n    config: {dtype: float32, name:\
+  \ dropout_7, noise_shape: null, rate: 0.5, seed: null,\n      trainable: true}\n\
+  \  - class_name: Dense\n    config:\n      activation: softmax\n      activity_regularizer:\
+  \ null\n      bias_constraint: null\n      bias_initializer:\n        class_name:\
+  \ Zeros\n        config: {}\n      bias_regularizer: null\n      dtype: float32\n\
+  \      kernel_constraint: null\n      kernel_initializer:\n        class_name: GlorotUniform\n\
+  \        config: {seed: null}\n      kernel_regularizer: null\n      name: dense_7\n\
+  \      trainable: true\n      units: 2\n      use_bias: true\n  name: sequential_8\n\
+  keras_version: 2.2.4-tf\n"
