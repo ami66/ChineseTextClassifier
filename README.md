@@ -27,6 +27,7 @@ python3
 6. word2vec+Bi_LSTM+Attention
 
 
+后期会增加glove/GPT/bert／ERNIE等方法对模型的改进
 
 更多机器学习／深度学习项目知识，欢迎关注微信公众号ID：datayx
 
