@@ -29,6 +29,5 @@ python3
 
 后期会增加glove/GPT/bert／ERNIE等方法对模型的改进
 
-更多机器学习／深度学习项目知识，欢迎关注微信公众号ID：datayx
+更多机器学习／深度学习项目知识，欢迎关注微信公众号ID：datanlp
 
-网站网址: https://loveai.tech/
